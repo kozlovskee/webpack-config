@@ -1,0 +1,16 @@
+@import "_vendor.scss";
+
+$a: black;
+
+body div {
+  background-color: rgb(211, 202, 202);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    color: $a;
+    font-size: 350px;
+  }
+}
