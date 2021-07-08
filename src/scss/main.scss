@@ -1,4 +1,5 @@
 @import "_vendor.scss";
+@import "_fonts.scss";
 
 $a: black;
 
@@ -10,7 +11,16 @@ body div {
   align-items: center;
   justify-content: center;
   p {
+    font-family: StruckBase;
     color: $a;
-    font-size: 350px;
+    font-size: 250px;
   }
+}
+
+img {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.33;
 }
